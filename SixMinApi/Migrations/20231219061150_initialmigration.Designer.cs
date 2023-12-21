@@ -12,7 +12,7 @@ namespace SixMinApi.Migrations
 {
     [DbContext(typeof(AppDbContext))]
     [Migration("20231219061150_initialmigration")]
-    partial class initialmigration
+    partial class Initialmigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
